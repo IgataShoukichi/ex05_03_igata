@@ -10,7 +10,7 @@ bool isSendable(BOX* box) {
 	int all[] = { 60,80,100,120,140,160,180,200 };
 	double size;
 	size = box->x + box->y + box->z;
-	if (size < 200) {
+	if (size <= 200) {
 		for (int j = 0; j < 8; j++) {
 			if (size <= all[j]) {
 				box->packSize = all[j];
