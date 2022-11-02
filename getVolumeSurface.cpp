@@ -4,3 +4,4 @@ void getVolumeSurface(BOX*box) {
 	box->surface = 2 * (box->x * box->y + box->x * box->z + box->y * box->z);
 	return;
 }
+bool isSendable(BOX*);

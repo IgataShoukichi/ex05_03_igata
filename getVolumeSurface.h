@@ -9,3 +9,4 @@ struct BOX {	//” ‚Ì’è‹`
 };
 
 void getVolumeSurface(BOX*);
+bool isSendable(BOX*);
