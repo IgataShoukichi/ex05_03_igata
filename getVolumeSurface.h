@@ -1,4 +1,5 @@
 #pragma once
+
 struct BOX {	//” ‚Ì’è‹`
 	double x;	//•
 	double y;	//‚‚³
